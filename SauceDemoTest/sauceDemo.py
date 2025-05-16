@@ -1,19 +1,8 @@
 import time
 from selenium.webdriver.common.by import By
 from selenium import webdriver
+from SauceDemoTest.WebDriver import driver
 
-driver= webdriver.Firefox()
-driver.get("https://www.saucedemo.com/")
-driver.maximize_window()
-
-time.sleep(3)
-
-Username= driver.find_element(By.XPATH,"//input[@id='user-name']")
-Username.send_keys('performance_glitch_user')
-
-time.sleep(3)
-Password= driver.find_element(By.XPATH,"//input[@id='password']")
-Password.send_keys('secret_sauce')
 
 time.sleep(4)
 login_btn=driver.find_element(By.XPATH,"//input[@id='login-button']")

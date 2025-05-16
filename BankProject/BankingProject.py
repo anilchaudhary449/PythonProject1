@@ -1,11 +1,7 @@
 import time
 
-from selenium import webdriver
+from BankProject.WebDriver import driver
 from selenium.webdriver.common.by import By
-
-driver= webdriver.Firefox()
-driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/")
-driver.maximize_window()
 
 time.sleep(4)
 Bank_Manager_LogIn= driver.find_element(By.XPATH,"//button[text()='Bank Manager Login']")
@@ -43,6 +39,6 @@ time.sleep(4)
 Home_btn= driver.find_element(By.XPATH,"//button[text()='Home']")
 Home_btn.click()
 
-time.sleep(5)
+time.sleep(15)
 driver.quit()
 
