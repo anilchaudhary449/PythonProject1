@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BankProject/WebDriver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY4/MouseActionTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SauceDemoTest/WebDriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY5/Click_Hold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY5/Drag_Drop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QA_Class/BankingProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/BankProject/BankingProject.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QA_Class/sauceDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/SauceDemoTest/sauceDemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY4/MouseActionTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY4/MouseActionTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,18 +53,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.BankingProject.executor": "Run",
-    "Python.MouseActionTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/anilb/PycharmProjects/PythonProject1/QA_Class",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.BankingProject.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DragNdrop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Drag_Drop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MouseActionTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anilb/PycharmProjects/PythonProject1/QA_Class&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\QA_Class" />
@@ -102,8 +101,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Drag_Drop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DAY5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DAY5/Drag_Drop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Drag_Drop" />
         <item itemvalue="Python.BankingProject" />
       </list>
     </recent_temporary>
