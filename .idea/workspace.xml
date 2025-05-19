@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DAY5/Click_Hold.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY5/Drag_Drop.py" afterDir="false" />
+    <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="DAY 5">
+      <change afterPath="$PROJECT_DIR$/Day6/SelectMenu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day6/Select_dropDown.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY4/MouseActionTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY4/MouseActionTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY5/Drag_Drop.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5/Drag_Drop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,13 @@
     &quot;accountId&quot;: &quot;8bd57cf3-8f38-4c87-aa34-6975975a84ba&quot;
   }
 }</component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -53,20 +63,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.BankingProject.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DragNdrop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Drag_Drop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MouseActionTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anilb/PycharmProjects/PythonProject1/QA_Class&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.BankingProject.executor": "Run",
+    "Python.DragNdrop.executor": "Run",
+    "Python.Drag_Drop.executor": "Run",
+    "Python.MouseActionTest.executor": "Run",
+    "Python.SelectMenu.executor": "Run",
+    "Python.Select_dropDown.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/anilb/PycharmProjects/PythonProject1/QA_Class",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\QA_Class" />
@@ -133,7 +147,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-2ee2454479a3-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.122" />
+        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
@@ -145,6 +159,15 @@
       <option name="presentableId" value="Default" />
       <updated>1747243401591</updated>
     </task>
+    <task id="LOCAL-00001" summary="DAY 5">
+      <option name="closed" value="true" />
+      <created>1747477582014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747477582014</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,5 +180,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DAY 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY 5" />
   </component>
 </project>
