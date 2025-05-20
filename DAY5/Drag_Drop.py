@@ -50,11 +50,11 @@ action.drag_and_drop(Drag_Me_btn1,notGreedy_innerDroppable).release().perform()
 time.sleep(2)
 Drag_Me_btn2= driver.find_element(By.XPATH,"//div[text()='Drag Me']")
 greedyOuter_droppable2= driver.find_element(By.XPATH,"//div[@id='greedyDropBox']")
+driver.execute_script("arguments[0].scrollIntoView(true);",greedyOuter_droppable2)
 action.drag_and_drop(Drag_Me_btn2,greedyOuter_droppable2).release().perform()
 
 time.sleep(3)
 Greedy_innerDroppable=driver.find_element(By.XPATH,"//div[@id='greedyDropBoxInner']")
-driver.execute_script("arguments[0].scrollIntoView(true);",Greedy_innerDroppable)
 action.drag_and_drop(Drag_Me_btn2,Greedy_innerDroppable).release().perform()
 
 time.sleep(3)

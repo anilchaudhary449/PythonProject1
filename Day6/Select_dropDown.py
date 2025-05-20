@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver import ActionChains, Keys
+from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
@@ -26,8 +26,7 @@ value_option.click()
 select_one_dropdown= driver.find_element(By.ID,"selectOne")
 select_one_dropdown.click()
 select_title= driver.find_element(By.CSS_SELECTOR,"#react-select-3-input")
-select_title.send_keys("Mr.")
-select_title.send_keys(Keys.ENTER)
+select_title.send_keys("Mr.",Keys.ENTER)
 
 old_select_menu = Select(driver.find_element(By.ID, "oldSelectMenu"))
 old_select_menu.select_by_visible_text("Green")

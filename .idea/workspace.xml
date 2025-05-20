@@ -7,11 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="DAY 5">
-      <change afterPath="$PROJECT_DIR$/Day6/SelectMenu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day6/Select_dropDown.py" afterDir="false" />
+    <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="DAY 5 commit">
+      <change afterPath="$PROJECT_DIR$/DAY7/KeyBoardActions_Form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY7/PracticeForm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY5/Drag_Drop.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5/Drag_Drop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Select_dropDown.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Select_dropDown.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     <option name="SCOPE" value="All" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -69,7 +71,9 @@
     "Python.BankingProject.executor": "Run",
     "Python.DragNdrop.executor": "Run",
     "Python.Drag_Drop.executor": "Run",
+    "Python.KeyBoardActions_Form.executor": "Run",
     "Python.MouseActionTest.executor": "Run",
+    "Python.PracticeForm.executor": "Run",
     "Python.SelectMenu.executor": "Run",
     "Python.Select_dropDown.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -167,7 +171,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747477582014</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DAY 6">
+      <option name="closed" value="true" />
+      <created>1747671970012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747671970012</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DAY 5 commit">
+      <option name="closed" value="true" />
+      <created>1747671990094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747671990094</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +203,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DAY 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAY 5" />
+    <MESSAGE value="DAY 6" />
+    <MESSAGE value="DAY 5 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY 5 commit" />
   </component>
 </project>
