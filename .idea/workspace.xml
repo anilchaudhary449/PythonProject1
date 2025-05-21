@@ -7,13 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="DAY 5 commit">
-      <change afterPath="$PROJECT_DIR$/DAY7/KeyBoardActions_Form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY7/PracticeForm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+    <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY5/Drag_Drop.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5/Drag_Drop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day6/Select_dropDown.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Select_dropDown.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.BankingProject.executor": "Run",
-    "Python.DragNdrop.executor": "Run",
-    "Python.Drag_Drop.executor": "Run",
-    "Python.KeyBoardActions_Form.executor": "Run",
-    "Python.MouseActionTest.executor": "Run",
-    "Python.PracticeForm.executor": "Run",
-    "Python.SelectMenu.executor": "Run",
-    "Python.Select_dropDown.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/anilb/PycharmProjects/PythonProject1/QA_Class",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.BankingProject.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DragNdrop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Drag_Drop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KeyBoardActions_Form.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MouseActionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PracticeForm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SelectMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Select_dropDown.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anilb/PycharmProjects/PythonProject1/QA_Class&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\QA_Class" />
@@ -96,7 +91,7 @@
       <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\QA_Class" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.BankingProject">
     <configuration name="BankingProject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -187,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747671990094</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1747766521197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747766521197</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +208,7 @@
     <MESSAGE value="DAY 5" />
     <MESSAGE value="DAY 6" />
     <MESSAGE value="DAY 5 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAY 5 commit" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
