@@ -1,3 +1,4 @@
+from requests import options
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -6,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 driver=webdriver.Firefox()
 driver.get("https://demoqa.com")
 driver.maximize_window()
-wait=WebDriverWait(driver,15)
+wait=WebDriverWait(driver,10)
 
 Form= wait.until(EC.presence_of_element_located((By.XPATH,"//h5[text()='Forms']")))
 driver.execute_script("arguments[0].click()",Form)
@@ -50,21 +51,22 @@ Picture.send_keys("E:\\QA Important\\Explicit.png")
 CurAddress= wait.until(EC.presence_of_element_located((By.ID,"currentAddress")))
 CurAddress.send_keys("ABC")
 
-SelectState=wait.until(EC.element_to_be_clickable((By.XPATH,"//div[contains(@class, 'css-1wa3eu0-placeholder') and contains(text(), 'Select State')]")))
-SelectState.click()
+SelectState=wait.until(EC.element_to_be_clickable((By.ID,"react-select-3-input")))
+driver.execute_script("arguments[0].click()",SelectState)
+SelectState.send_keys("R")
 
 StateOpt= wait.until(EC.element_to_be_clickable((By.XPATH,"//div[text()='Rajasthan']")))
 driver.execute_script("arguments[0].click()",StateOpt)
 
-
-StateCity= wait.until(EC.element_to_be_clickable((By.XPATH,"//div[text()='Select City']")))
-StateCity.click()
+StateCity= wait.until(EC.element_to_be_clickable((By.ID,"react-select-4-input")))
+driver.execute_script("arguments[0].click()",StateCity)
+StateCity.send_keys("j")
 
 CityOpt=wait.until(EC.element_to_be_clickable((By.XPATH,"//div[text()='Jaipur']")))
-CityOpt.click()
+driver.execute_script("arguments[0].click()",CityOpt)
 
 SubmitBtn= wait.until(EC.element_to_be_clickable((By.ID,"submit")))
-SubmitBtn.click()
+driver.execute_script("arguments[0].click()",SubmitBtn)
 
 CloseBtn=wait.until(EC.element_to_be_clickable((By.ID,'closeLargeModal')))
 driver.execute_script("arguments[0].click()",CloseBtn)

@@ -8,11 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/DAY8/RegisterForm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY9_10/DemoQA_PracticeForm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY9_10/EC_AuthorizedPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY7/KeyBoardActions_Form.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY7/KeyBoardActions_Form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY9_10/DemoQA_PracticeForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY9_10/DemoQA_PracticeForm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
