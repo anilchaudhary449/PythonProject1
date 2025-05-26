@@ -7,7 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="commit" />
+    <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/DAY11/Alerts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY11/iFrame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY9_10/DemoQA_PracticeForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY9_10/DemoQA_PracticeForm.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,30 +63,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.BankingProject.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DemoQA_PracticeForm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DragNdrop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Drag_Drop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EC_AuthorizedPage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.KeyBoardActions_Form.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LoginPage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MouseActionTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PracticeForm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RegisterForm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SelectMenu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Select_dropDown.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anilb/PycharmProjects/PythonProject1/QA_Class&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Alerts.executor": "Run",
+    "Python.BankingProject.executor": "Run",
+    "Python.DemoQA_PracticeForm.executor": "Run",
+    "Python.DragNdrop.executor": "Run",
+    "Python.Drag_Drop.executor": "Run",
+    "Python.EC_AuthorizedPage.executor": "Run",
+    "Python.KeyBoardActions_Form.executor": "Run",
+    "Python.LoginPage.executor": "Run",
+    "Python.MouseActionTest.executor": "Run",
+    "Python.PracticeForm.executor": "Run",
+    "Python.RegisterForm.executor": "Run",
+    "Python.SelectMenu.executor": "Run",
+    "Python.Select_dropDown.executor": "Run",
+    "Python.iFrame.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/anilb/PycharmProjects/PythonProject1/QA_Class",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\QA_Class" />

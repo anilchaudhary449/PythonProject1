@@ -1,4 +1,3 @@
-from requests import options
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -72,9 +71,3 @@ CloseBtn=wait.until(EC.element_to_be_clickable((By.ID,'closeLargeModal')))
 driver.execute_script("arguments[0].click()",CloseBtn)
 
 driver.quit()
-
-
-
-
-
-
