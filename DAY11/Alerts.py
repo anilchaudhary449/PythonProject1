@@ -1,5 +1,4 @@
 import time
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -22,7 +21,6 @@ alert1= driver.switch_to.alert
 print(alert1.text)
 alert1.accept()
 
-
 timerAlert= wait.until(EC.element_to_be_clickable((By.ID,"timerAlertButton")))
 timerAlert.click()
 time.sleep(6)
@@ -37,7 +35,7 @@ print("Confirmation Alert:",alert3.text)
 # alert3.accept()
 alert3.dismiss()
 
-promptAlert=wait.until(EC.element_to_be_clickable((By.ID,"promtButton")))
+promptAlert=wait.until(EC.element_to_be_clickable((By.ID,"promptButton")))
 promptAlert.click()
 alert4=driver.switch_to.alert
 print("Prompt Alert:",alert4.text)

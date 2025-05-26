@@ -8,10 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/DAY11/Alerts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY11/iFrame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY11/dropdown.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY9_10/DemoQA_PracticeForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY9_10/DemoQA_PracticeForm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY11/Alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY11/Alerts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +78,7 @@
     "Python.RegisterForm.executor": "Run",
     "Python.SelectMenu.executor": "Run",
     "Python.Select_dropDown.executor": "Run",
+    "Python.dropdown.executor": "Run",
     "Python.iFrame.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -241,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747814856617</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <option name="closed" value="true" />
+      <created>1748254560125</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748254560125</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
