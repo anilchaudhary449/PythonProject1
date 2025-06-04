@@ -56,15 +56,26 @@ alert3=driver.switch_to.alert
 print(alert3.text)
 alert3.accept()
 
+
 #open new browser window
 BrowseNewWindow= wait.until(EC.element_to_be_clickable((By.XPATH,"//button[@onclick='myFunctionNewBrowser()']")))
 driver.execute_script("arguments[0].click()",BrowseNewWindow)
 print(BrowseNewWindow.text)
 
+driver.switch_to.window(driver.window_handles[1])
+time.sleep(2)
+driver.close()
+driver.switch_to.window(driver.window_handles[0])
+
 time.sleep(2)
 BrowseNewTab= wait.until(EC.element_to_be_clickable((By.XPATH,"//a[text()='Click to visit RCV Academy!']")))
 driver.execute_script("arguments[0].click()",BrowseNewTab)
 print(BrowseNewTab.text)
+
+driver.switch_to.window(driver.window_handles[1])
+time.sleep(2)
+driver.close()
+driver.switch_to.window(driver.window_handles[0])
 
 time.sleep(1)
 
@@ -133,4 +144,7 @@ driver.execute_script("arguments[0].scrollIntoView(true)",ScrollToShow)
 Show_hide= wait.until(EC.element_to_be_clickable((By.XPATH,"//button[@onclick='myFunctionshowhide()']")))
 driver.execute_script("arguments[0].click()",Show_hide)
 print("Show/Hide: ",Show_hide.text)
-driver.quit()
+
+driver.switch_to.default_content()
+
+# driver.quit()

@@ -47,3 +47,5 @@ CVv.send_keys("345")
 
 SubscribeNow= wait.until(EC.element_to_be_clickable((By.XPATH,"//button[text()='Subscribe now']")))
 driver.execute_script("arguments[0].click()",SubscribeNow)
+
+driver.quit()

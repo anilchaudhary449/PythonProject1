@@ -8,9 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/DAY13/ApiKey-SanitizeEmail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY13/rcvAcademy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY14/MyTeam_sanitizeEmail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY14/Roles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY15/AnalyzeList_sanitizeEmail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY15/ListValidation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY17/Demoqa_WindowSwitch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY17/rcv_WindowSwitch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY12/SignIn_UpgradePlan_sanitizeEmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY12/SignIn_UpgradePlan_sanitizeEmail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY13/rcvAcademy.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY13/rcvAcademy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +72,7 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.Alerts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AnalyzeList_sanitizeEmail.executor&quot;: &quot;Run&quot;,
     &quot;Python.ApiKey-SanitizeEmail.executor&quot;: &quot;Run&quot;,
     &quot;Python.BankingProject.executor&quot;: &quot;Run&quot;,
     &quot;Python.CleanList_sanitizeEmail.executor&quot;: &quot;Run&quot;,
@@ -75,17 +82,24 @@
     &quot;Python.EC_AuthorizedPage.executor&quot;: &quot;Run&quot;,
     &quot;Python.FileValidation_VerifyEmail.executor&quot;: &quot;Run&quot;,
     &quot;Python.KeyBoardActions_Form.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ListValidation.executor&quot;: &quot;Run&quot;,
     &quot;Python.LoginPage.executor&quot;: &quot;Run&quot;,
     &quot;Python.MouseActionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MyTeam_sanitizeEmail.executor&quot;: &quot;Run&quot;,
     &quot;Python.PracticeForm.executor&quot;: &quot;Run&quot;,
     &quot;Python.RegisterForm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Roles.executor&quot;: &quot;Run&quot;,
     &quot;Python.SelectMenu.executor&quot;: &quot;Run&quot;,
     &quot;Python.Select_dropDown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SignIn_UpgradePlan_sanitizeEmail (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.SignIn_UpgradePlan_sanitizeEmail.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SignIn_sanitizeEmail.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WindowSwitch.executor&quot;: &quot;Run&quot;,
     &quot;Python.dropdown.executor&quot;: &quot;Run&quot;,
     &quot;Python.dropdown_Select.executor&quot;: &quot;Run&quot;,
     &quot;Python.iFrame.executor&quot;: &quot;Run&quot;,
     &quot;Python.rcvAcademy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rcv_WindowSwitch.executor&quot;: &quot;Run&quot;,
     &quot;Python.snitizeEmail_overallRev.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -131,28 +145,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Drag_Drop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DAY5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DAY5/Drag_Drop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="KeyBoardActions_Form" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -167,6 +159,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DAY7/KeyBoardActions_Form.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Roles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DAY14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DAY14/Roles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SignIn_UpgradePlan_sanitizeEmail (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DAY12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DAY12/SignIn_UpgradePlan_sanitizeEmail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,10 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Roles" />
+        <item itemvalue="Python.SignIn_UpgradePlan_sanitizeEmail (1)" />
         <item itemvalue="Python.SignIn_UpgradePlan_sanitizeEmail" />
         <item itemvalue="Python.BankingProject" />
         <item itemvalue="Python.KeyBoardActions_Form" />
-        <item itemvalue="Python.Drag_Drop" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748369018540</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit">
+      <option name="closed" value="true" />
+      <created>1748493180017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748493180017</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
