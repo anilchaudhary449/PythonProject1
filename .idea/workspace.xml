@@ -8,15 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/DAY14/MyTeam_sanitizeEmail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY14/Roles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY15/AnalyzeList_sanitizeEmail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY15/ListValidation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY17/Demoqa_WindowSwitch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY17/rcv_WindowSwitch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY27/Assertion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY27/GlobalQA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day28/demoqa_datepicker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day28/headlessBrowser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day28/omayo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OopsConcepts/RCV/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OopsConcepts/RCV/browser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OopsConcepts/RCV/rcvacademy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OopsConcepts/RCV/test_rcvacademy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OopsConcepts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY12/SignIn_UpgradePlan_sanitizeEmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY12/SignIn_UpgradePlan_sanitizeEmail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY13/rcvAcademy.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY13/rcvAcademy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,62 +72,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Alerts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AnalyzeList_sanitizeEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ApiKey-SanitizeEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BankingProject.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CleanList_sanitizeEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DemoQA_PracticeForm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DragNdrop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Drag_Drop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EC_AuthorizedPage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FileValidation_VerifyEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.KeyBoardActions_Form.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ListValidation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LoginPage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MouseActionTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MyTeam_sanitizeEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PracticeForm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RegisterForm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Roles.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SelectMenu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Select_dropDown.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SignIn_UpgradePlan_sanitizeEmail (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.SignIn_UpgradePlan_sanitizeEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SignIn_sanitizeEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WindowSwitch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dropdown.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dropdown_Select.executor&quot;: &quot;Run&quot;,
-    &quot;Python.iFrame.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rcvAcademy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rcv_WindowSwitch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snitizeEmail_overallRev.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anilb/PycharmProjects/PythonProject1/QA_Class&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for headlessBrowser.test_register_account_form.executor": "Run",
+    "Python tests.Python tests for omayo.test_button.executor": "Run",
+    "Python tests.Python tests for omayo.test_button1.executor": "Run",
+    "Python tests.Python tests for omayo.test_dropdown.executor": "Run",
+    "Python tests.Python tests for omayo.test_link1.executor": "Run",
+    "Python tests.Python tests for omayo.test_links.executor": "Run",
+    "Python tests.Python tests for omayo.test_multiselect.executor": "Run",
+    "Python tests.Python tests for omayo.test_omayo_site.executor": "Run",
+    "Python tests.Python tests for omayo.test_open_window.executor": "Run",
+    "Python tests.Python tests for omayo.test_preloaded_text.executor": "Run",
+    "Python tests.Python tests in PyTest.executor": "Run",
+    "Python tests.Python tests in headlessBrowser.py.executor": "Run",
+    "Python tests.Python tests in omayo.py.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python tests.Python tests in test_rcvacademy.py.executor": "Run",
+    "Python tests.pytest in test_main.py.executor": "Run",
+    "Python.Alerts.executor": "Run",
+    "Python.AnalyzeList_sanitizeEmail.executor": "Run",
+    "Python.ApiKey-SanitizeEmail.executor": "Run",
+    "Python.Assertion.executor": "Run",
+    "Python.BankingProject.executor": "Run",
+    "Python.Browser.executor": "Run",
+    "Python.CleanList_sanitizeEmail.executor": "Run",
+    "Python.DemoQA_PracticeForm.executor": "Run",
+    "Python.DragNdrop.executor": "Run",
+    "Python.Drag_Drop.executor": "Run",
+    "Python.EC_AuthorizedPage.executor": "Run",
+    "Python.FileValidation_VerifyEmail.executor": "Run",
+    "Python.GlobalQA.executor": "Run",
+    "Python.Google.executor": "Run",
+    "Python.KeyBoardActions_Form.executor": "Run",
+    "Python.ListValidation.executor": "Run",
+    "Python.LoginPage.executor": "Run",
+    "Python.MouseActionTest.executor": "Run",
+    "Python.MyTeam_sanitizeEmail.executor": "Run",
+    "Python.PracticeForm.executor": "Run",
+    "Python.RCVAcademy.executor": "Run",
+    "Python.RegisterForm.executor": "Run",
+    "Python.Roles.executor": "Run",
+    "Python.SelectMenu.executor": "Run",
+    "Python.Select_dropDown.executor": "Run",
+    "Python.SignIn_UpgradePlan_sanitizeEmail (1).executor": "Run",
+    "Python.SignIn_UpgradePlan_sanitizeEmail.executor": "Run",
+    "Python.SignIn_sanitizeEmail.executor": "Run",
+    "Python.Test_Main.executor": "Run",
+    "Python.WindowSwitch.executor": "Run",
+    "Python.demoqa_datepicker.executor": "Run",
+    "Python.dropdown.executor": "Run",
+    "Python.dropdown_Select.executor": "Run",
+    "Python.iFrame.executor": "Run",
+    "Python.omayo.executor": "Run",
+    "Python.rcvAcademy.executor": "Run",
+    "Python.rcv_WindowSwitch.executor": "Run",
+    "Python.snitizeEmail_overallRev.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/anilb/PycharmProjects/PythonProject1/QA_Class",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="PythonProject1" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="PythonProject1" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\QA_Class" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anilb\PycharmProjects\PythonProject1" />
+      <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\OopsConcepts\RCV" />
+      <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\OopsConcepts" />
       <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\DAY12" />
       <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\DAY12\SignIn_sanitizeEmail" />
-      <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\DAY4" />
-      <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\BankProject" />
-      <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\SauceDemoTest" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="BankingProject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for omayo.test_disabled_text_box">
+    <configuration name="Assertion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,11 +168,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BankProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DAY27" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BankProject/BankingProject.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DAY27/Assertion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,101 +181,99 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="KeyBoardActions_Form" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for omayo.test_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DAY7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day28" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DAY7/KeyBoardActions_Form.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;omayo.test_button&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Roles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for omayo.test_button1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DAY14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day28" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DAY14/Roles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;omayo.test_button1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="SignIn_UpgradePlan_sanitizeEmail (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for omayo.test_disabled_text_box" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DAY12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day28" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DAY12/SignIn_UpgradePlan_sanitizeEmail.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;omayo.test_disabled_text_box&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="SignIn_UpgradePlan_sanitizeEmail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for omayo.test_open_window" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DAY12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day28" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\anilb\PycharmProjects\PythonProject1\DAY12\SignIn_UpgradePlan_sanitizeEmail.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;omayo.test_open_window&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in C:\Users\anilb\PycharmProjects\PythonProject1\OopsConcepts\RCV\test_main.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;C:\\Users\\anilb\\PycharmProjects\\PythonProject1\\OopsConcepts\\RCV\\test_main.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Assertion" />
+      <item itemvalue="Python tests.pytest in C:\Users\anilb\PycharmProjects\PythonProject1\OopsConcepts\RCV\test_main.py" />
+      <item itemvalue="Python tests.Python tests for omayo.test_button" />
+      <item itemvalue="Python tests.Python tests for omayo.test_button1" />
+      <item itemvalue="Python tests.Python tests for omayo.test_disabled_text_box" />
+      <item itemvalue="Python tests.Python tests for omayo.test_open_window" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Roles" />
-        <item itemvalue="Python.SignIn_UpgradePlan_sanitizeEmail (1)" />
-        <item itemvalue="Python.SignIn_UpgradePlan_sanitizeEmail" />
-        <item itemvalue="Python.BankingProject" />
-        <item itemvalue="Python.KeyBoardActions_Form" />
+        <item itemvalue="Python tests.Python tests for omayo.test_disabled_text_box" />
+        <item itemvalue="Python tests.Python tests for omayo.test_button1" />
+        <item itemvalue="Python.Assertion" />
+        <item itemvalue="Python tests.Python tests for omayo.test_button" />
+        <item itemvalue="Python tests.Python tests for omayo.test_open_window" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748493180017</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit">
+      <option name="closed" value="true" />
+      <created>1749059042657</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1749059042657</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
