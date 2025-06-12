@@ -7,21 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/DAY27/Assertion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY27/GlobalQA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day28/demoqa_datepicker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day28/headlessBrowser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day28/omayo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OopsConcepts/RCV/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OopsConcepts/RCV/browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OopsConcepts/RCV/rcvacademy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OopsConcepts/RCV/test_rcvacademy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OopsConcepts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +64,7 @@
     "Python tests.Python tests for headlessBrowser.test_register_account_form.executor": "Run",
     "Python tests.Python tests for omayo.test_button.executor": "Run",
     "Python tests.Python tests for omayo.test_button1.executor": "Run",
+    "Python tests.Python tests for omayo.test_disabled_text_box.executor": "Run",
     "Python tests.Python tests for omayo.test_dropdown.executor": "Run",
     "Python tests.Python tests for omayo.test_link1.executor": "Run",
     "Python tests.Python tests for omayo.test_links.executor": "Run",
@@ -391,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749059042657</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit">
+      <option name="closed" value="true" />
+      <created>1749754129391</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1749754129391</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
