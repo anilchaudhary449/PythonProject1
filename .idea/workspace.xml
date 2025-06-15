@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e2c5ffa-4956-4ef7-8781-e99190f54b4c" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day28/omayo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day28/omayo.py" afterDir="false" />
     </list>
@@ -65,23 +66,33 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for headlessBrowser.test_register_account_form.executor": "Run",
+    "Python tests.Python tests for omayo.test_Alert_Demo.executor": "Run",
     "Python tests.Python tests for omayo.test_button.executor": "Run",
     "Python tests.Python tests for omayo.test_button1.executor": "Run",
     "Python tests.Python tests for omayo.test_button_login.executor": "Run",
     "Python tests.Python tests for omayo.test_button_with_same_attributes.executor": "Run",
+    "Python tests.Python tests for omayo.test_check_box.executor": "Run",
     "Python tests.Python tests for omayo.test_check_this.executor": "Run",
+    "Python tests.Python tests for omayo.test_confirmation_dialog.executor": "Run",
     "Python tests.Python tests for omayo.test_dateHeader.executor": "Run",
     "Python tests.Python tests for omayo.test_disabledBtn.executor": "Run",
     "Python tests.Python tests for omayo.test_disabled_text_box.executor": "Run",
     "Python tests.Python tests for omayo.test_display_for_time_and_disappear.executor": "Run",
+    "Python tests.Python tests for omayo.test_doubleClick.executor": "Run",
     "Python tests.Python tests for omayo.test_double_click.executor": "Run",
     "Python tests.Python tests for omayo.test_dropdown.executor": "Run",
     "Python tests.Python tests for omayo.test_frame1.executor": "Run",
     "Python tests.Python tests for omayo.test_frame2.executor": "Run",
+    "Python tests.Python tests for omayo.test_get_prompt.executor": "Run",
+    "Python tests.Python tests for omayo.test_hiddenBtn.executor": "Run",
     "Python tests.Python tests for omayo.test_htmlForm.executor": "Run",
     "Python tests.Python tests for omayo.test_link1.executor": "Run",
+    "Python tests.Python tests for omayo.test_linked_list.executor": "Run",
     "Python tests.Python tests for omayo.test_links.executor": "Run",
+    "Python tests.Python tests for omayo.test_locate_using_class.executor": "Run",
+    "Python tests.Python tests for omayo.test_locate_with_attribute.executor": "Run",
     "Python tests.Python tests for omayo.test_loginPage.executor": "Run",
+    "Python tests.Python tests for omayo.test_multi_select.executor": "Run",
     "Python tests.Python tests for omayo.test_multiselect.executor": "Run",
     "Python tests.Python tests for omayo.test_omayo_site.executor": "Run",
     "Python tests.Python tests for omayo.test_open_window.executor": "Run",
@@ -89,7 +100,13 @@
     "Python tests.Python tests for omayo.test_pageOne.executor": "Run",
     "Python tests.Python tests for omayo.test_popup_window.executor": "Run",
     "Python tests.Python tests for omayo.test_preloaded_text.executor": "Run",
+    "Python tests.Python tests for omayo.test_radio_option.executor": "Run",
+    "Python tests.Python tests for omayo.test_readonly_text.executor": "Run",
+    "Python tests.Python tests for omayo.test_sameIDName.executor": "Run",
+    "Python tests.Python tests for omayo.test_same_className_ofPrevious.executor": "Run",
     "Python tests.Python tests for omayo.test_search.executor": "Run",
+    "Python tests.Python tests for omayo.test_search_bar.executor": "Run",
+    "Python tests.Python tests for omayo.test_select_vehicle.executor": "Run",
     "Python tests.Python tests for omayo.test_subscribePost.executor": "Run",
     "Python tests.Python tests for omayo.test_table.executor": "Run",
     "Python tests.Python tests for omayo.test_textArea.executor": "Run",
@@ -170,8 +187,8 @@
       <recent name="C:\Users\anilb\PycharmProjects\PythonProject1\DAY12\SignIn_sanitizeEmail" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for omayo.test_loginPage">
-    <configuration name="Python tests for omayo.test_frame1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for omayo.test_popup_window">
+    <configuration name="Python tests for omayo.test_disabledBtn" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,11 +199,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;omayo.test_frame1&quot;" />
+      <option name="_new_target" value="&quot;omayo.test_disabledBtn&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for omayo.test_frame2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for omayo.test_popup_window" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,11 +214,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;omayo.test_frame2&quot;" />
+      <option name="_new_target" value="&quot;omayo.test_popup_window&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for omayo.test_htmlForm" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for omayo.test_radio_option" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,11 +229,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;omayo.test_htmlForm&quot;" />
+      <option name="_new_target" value="&quot;omayo.test_radio_option&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for omayo.test_loginPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for omayo.test_search_bar" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,11 +244,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;omayo.test_loginPage&quot;" />
+      <option name="_new_target" value="&quot;omayo.test_search_bar&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for omayo.test_table" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in omayo.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,8 +259,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;omayo.test_table&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Day28/omayo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in C:\Users\anilb\PycharmProjects\PythonProject1\OopsConcepts\RCV\test_main.py" type="tests" factoryName="py.test" nameIsGenerated="true">
@@ -266,26 +283,26 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in C:\Users\anilb\PycharmProjects\PythonProject1\OopsConcepts\RCV\test_main.py" />
-      <item itemvalue="Python tests.Python tests for omayo.test_frame1" />
-      <item itemvalue="Python tests.Python tests for omayo.test_frame2" />
-      <item itemvalue="Python tests.Python tests for omayo.test_htmlForm" />
-      <item itemvalue="Python tests.Python tests for omayo.test_loginPage" />
-      <item itemvalue="Python tests.Python tests for omayo.test_table" />
+      <item itemvalue="Python tests.Python tests for omayo.test_disabledBtn" />
+      <item itemvalue="Python tests.Python tests for omayo.test_popup_window" />
+      <item itemvalue="Python tests.Python tests for omayo.test_radio_option" />
+      <item itemvalue="Python tests.Python tests for omayo.test_search_bar" />
+      <item itemvalue="Python tests.Python tests in omayo.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for omayo.test_loginPage" />
-        <item itemvalue="Python tests.Python tests for omayo.test_frame2" />
-        <item itemvalue="Python tests.Python tests for omayo.test_frame1" />
-        <item itemvalue="Python tests.Python tests for omayo.test_htmlForm" />
-        <item itemvalue="Python tests.Python tests for omayo.test_table" />
+        <item itemvalue="Python tests.Python tests for omayo.test_popup_window" />
+        <item itemvalue="Python tests.Python tests for omayo.test_disabledBtn" />
+        <item itemvalue="Python tests.Python tests in omayo.py" />
+        <item itemvalue="Python tests.Python tests for omayo.test_radio_option" />
+        <item itemvalue="Python tests.Python tests for omayo.test_search_bar" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
       </set>
     </attachedChunks>
   </component>
@@ -412,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749754231429</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit">
+      <option name="closed" value="true" />
+      <created>1749924396300</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1749924396300</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

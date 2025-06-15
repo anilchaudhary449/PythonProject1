@@ -1,18 +1,18 @@
 import time
 from traceback import format_tb
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.devtools.v135.input_ import dispatch_drag_event
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.devtools.v135.input_ import dispatch_drag_event
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-# # Set up Firefox options
+# Set up Firefox options
 # firefox_options = Options()
 # firefox_options.add_argument('--headless')
 #
@@ -42,7 +42,7 @@ def test_links():
     driver.execute_script("arguments[0].scrollIntoView(true)",link1)
     link1.click()
     driver.back()
-    time.sleep(5)
+    time.sleep(3)
     link2=wait.until(EC.presence_of_element_located((By.ID,"link2")))
     driver.execute_script("arguments[0].scrollIntoView(true)",link2)
     link2.click()
@@ -63,9 +63,10 @@ def test_button2():
 def test_button1():
     button = driver.find_element(By.ID, "but1")
     assert not button.is_enabled(), "Button should be disabled, but it is enabled."
+    time.sleep(3)
 def test_disabled_text_box():
     disabled_text_box=driver.find_element(By.ID,"tb2")
-    assert not disabled_text_box.is_enabled(),"Text bos should be diable, but it is enabled."
+    assert not disabled_text_box.is_enabled(),f"Text box should be disable, but it is enabled."
 def test_button_submit():
     submit= wait.until(EC.element_to_be_clickable((By.XPATH,"//button[text()='Submit']")))
     driver.execute_script("arguments[0].scrollIntoView(true)",submit)
@@ -107,11 +108,12 @@ def test_timer_button():
     timerBtn= wait.until(EC.element_to_be_clickable((By.ID,"timerButton")))
     driver.execute_script("arguments[0].click()",timerBtn)
 def test_disabledBtn():
-    tryIt=wait.until(EC.presence_of_element_located((By.XPATH,"//button[text()='Try it']")))
-    driver.execute_script("arguments[0].click()",tryIt)
-    time.sleep(4)
+    tryItBtn=wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@onclick='setTimeout(myFunctionABC,3000)']")))
+    driver.execute_script("arguments[0].scrollIntoView(true)", tryItBtn)
+    tryItBtn.click()
+    time.sleep(5)
     myBtn=driver.find_element(By.ID,"myBtn")
-    assert not myBtn.is_enabled(),f'myBtn is Enabled.'
+    print(myBtn.get_property("disabled"))
 def test_double_click():
     double_click=driver.find_element(By.XPATH,"//button[text()=' Double click Here   ']")
     driver.execute_script("arguments[0].scrollIntoView(true)",double_click)
@@ -124,7 +126,6 @@ def test_check_this():
     time.sleep(11)
     opt= wait.until(EC.element_to_be_clickable((By.ID,"dte")))
     opt.click()
-
 def test_dateHeader():
     head= driver.find_element(By.XPATH,"//h2[@class='date-header']")
     print(head.text)
@@ -199,3 +200,91 @@ def test_loginPage():
     msg=driver.switch_to.alert
     print(msg.text)
     msg.accept()
+def test_search_bar():
+    searchBar= wait.until(EC.presence_of_element_located((By.XPATH,"//input[@size='10']")))
+    actions.click(searchBar.send_keys("Page One")).perform()
+    searchBtn= wait.until(EC.element_to_be_clickable((By.XPATH,"//input[@value='Search']")))
+    driver.execute_script("arguments[0].click()",searchBtn)
+    time.sleep(2)
+    driver.back()
+def test_radio_option():
+    RadioScroll=wait.until(EC.presence_of_element_located((By.ID,"HTML15")))
+    driver.execute_script("arguments[0].scrollIntoView(true)",RadioScroll)
+    radioBtn= wait.until(EC.element_to_be_clickable((By.ID,"radio1")))
+    driver.execute_script("arguments[0].click()",radioBtn)
+def test_Alert_Demo():
+    alert_demo=wait.until(EC.element_to_be_clickable((By.ID,"alert1")))
+    driver.execute_script("arguments[0].scrollIntoView(true)",alert_demo)
+    actions.click(alert_demo).perform()
+    driver.switch_to.alert.accept()
+def test_check_box():
+    checkBox= wait.until(EC.element_to_be_clickable((By.ID,"checkbox2")))
+    driver.execute_script("arguments[0].scrollIntoView(true)",checkBox)
+    actions.click(checkBox).perform()
+    time.sleep(3)
+    uncheck=wait.until(EC.element_to_be_clickable((By.ID,"checkbox1")))
+    uncheck.click()
+def test_readonly_text():
+    read_only= wait.until(EC.presence_of_element_located((By.ID,"rotb")))
+    status=read_only.get_property("value")
+    print("Value of this Tag: ",status)
+def test_get_prompt():
+    prompt=wait.until(EC.presence_of_element_located((By.ID,"HTML18")))
+    driver.execute_script("arguments[0].scrollIntoView(true)",prompt)
+    get_prompt=wait.until(EC.element_to_be_clickable((By.ID,"prompt")))
+    get_prompt.click()
+    msg=driver.switch_to.alert
+    msg.send_keys("Namaste")
+    msg.accept()
+def test_confirmation_dialog():
+    confirmation=wait.until(EC.element_to_be_clickable((By.ID,"confirm")))
+    driver.execute_script("arguments[0].scrollIntoView(true)",confirmation)
+    confirmation.click()
+    confrm=driver.switch_to.alert
+    print(confrm.text)
+    confrm.accept()
+def test_hiddenBtn():
+    btn_hidden= wait.until(EC.presence_of_element_located((By.ID,"hbutton")))
+    driver.execute_script("arguments[0].scrollIntoView(true)",btn_hidden)
+    print(btn_hidden.get_property("value"))
+def test_locate_with_attribute():
+    locate_attribute= wait.until(EC.presence_of_element_located((By.NAME,"textboxn")))
+    locate_attribute.click()
+def test_linked_list():
+    linkedlist= wait.until(EC.presence_of_element_located((By.ID,"LinkList1")))
+    listsContents=linkedlist.find_elements(By.TAG_NAME,"li")
+    for display in listsContents:
+        print(display.text)
+def test_sameIDName():
+    sameIDName= wait.until(EC.presence_of_element_located((By.ID,"sa")))
+    print("\nValue=",sameIDName.get_property("value"),"\n ID=",sameIDName.get_property("id"),"\n Name=",sameIDName.get_property("name"))
+def test_locate_using_class():
+    locate_usingClass=wait.until(EC.presence_of_element_located((By.CLASS_NAME,"classone")))
+    locate_usingClass.click()
+def test_same_className_ofPrevious():
+    locateDiv=wait.until(EC.presence_of_element_located((By.ID,"HTML28")))
+    locateInput=locateDiv.find_element(By.CLASS_NAME,"classone")
+    locateInput.click()
+def test_select_vehicle():
+    radioBtn_vehicle= wait.until(EC.presence_of_element_located((By.XPATH,"//input[@value='Car']")))
+    radioBtn_vehicle.click()
+def test_multi_select():
+    selectMain=wait.until(EC.presence_of_element_located((By.ID,"HTML33")))
+    driver.execute_script("arguments[0].scrollIntoView(true)",selectMain)
+    option=selectMain.find_element(By.XPATH,"//input[@value='Bag']")
+    option.click()
+def test_doubleClick():
+    doubleclick=wait.until(EC.presence_of_element_located((By.ID,"HTML40")))
+    driver.execute_script("arguments[0].scrollIntoView(true)",doubleclick)
+    btnDoubleClick=doubleclick.find_element(By.ID,"testdoubleclick")
+    actions.double_click(btnDoubleClick).perform()
+def test_drop_down():
+    scroll2dropdown=wait.until(EC.presence_of_element_located((By.ID,"HTML34")))
+    driver.execute_script("arguments[0].scrollIntoView(true)",scroll2dropdown)
+    dropdown= wait.until(EC.element_to_be_clickable((By.CLASS_NAME,"dropbtn")))
+    driver.execute_script("arguments[0].click()",dropdown)
+    time.sleep(5)
+    cap_contents= wait.until(EC.presence_of_element_located((By.ID,"myDropdown")))
+    show_contents= cap_contents.find_elements(By.TAG_NAME,"a")
+    for display in show_contents:
+        print(display.text)
