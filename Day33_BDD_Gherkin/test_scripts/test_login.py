@@ -7,17 +7,14 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 scenarios('../features\login.feature')
-
 @pytest.fixture
 def driver():
     browser= webdriver.Firefox()
     yield browser
     browser.quit()
-
 @given('the user is on the login page')
 def navigate_to_login(driver):
     driver.get("https://sanitize-crm.netlify.app/")
-
 time.sleep(3)
 @when('the user enters valid credentials')
 def enter_credentials(driver):
