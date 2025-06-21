@@ -1,0 +1,21 @@
+2025-06-21 16:36:32,167 - INFO - Starting test_login
+2025-06-21 16:36:43,203 - INFO - Opened URL: https://sanitize-crm.netlify.app/login
+2025-06-21 16:36:43,309 - INFO - Entered username
+2025-06-21 16:36:43,340 - INFO - Entered password
+2025-06-21 16:36:43,585 - INFO - Clicked login button
+2025-06-21 16:36:46,443 - INFO - Browser closed
+2025-06-21 16:43:03,180 - INFO - Starting test_login
+2025-06-21 16:43:11,813 - INFO - Opened URL: https://sanitize-crm.netlify.app/login
+2025-06-21 16:43:11,918 - INFO - Entered username
+2025-06-21 16:43:11,948 - INFO - Entered password
+2025-06-21 16:43:12,194 - INFO - Clicked login button
+2025-06-21 16:43:15,104 - INFO - Browser closed
+2025-06-21 16:43:57,489 - INFO - Starting test_login
+2025-06-21 16:44:04,458 - INFO - Opened URL: https://sanitize-crm.netlify.app/login
+2025-06-21 16:44:04,608 - INFO - Entered username
+2025-06-21 16:44:04,643 - INFO - Entered password
+2025-06-21 16:44:04,884 - INFO - Clicked login button
+2025-06-21 16:44:04,887 - ERROR - Test failed: assert ('dashboard' in 'https://sanitize-crm.netlify.app/login' or 'Sanitize  Email' in 'Sanitize Email')
+ +  where 'https://sanitize-crm.netlify.app/login' = <selenium.webdriver.firefox.webdriver.WebDriver (session="559a6cc4-ed83-4a45-9b54-b2e619e57823")>.current_url
+ +  and   'Sanitize Email' = <selenium.webdriver.firefox.webdriver.WebDriver (session="559a6cc4-ed83-4a45-9b54-b2e619e57823")>.title
+2025-06-21 16:44:07,734 - INFO - Browser closed
