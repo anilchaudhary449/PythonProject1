@@ -22,12 +22,12 @@ def enter_credentials(driver):
     uname = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.XPATH, "//input[@name='email']"))
     )
-    uname.send_keys("anil.bhumal@gmail.com")
+    uname.send_keys("email@gmail.com")
     #password
     password=WebDriverWait(driver,10).until(
         EC.presence_of_element_located((By.XPATH,"//input[@name='password']"))
     )
-    password.send_keys("P@$$w0rd$")
+    password.send_keys("password")
     #login button
     driver.find_element(By.XPATH,"//button[@type='submit']").click()
 @then('the user should be logged in')
